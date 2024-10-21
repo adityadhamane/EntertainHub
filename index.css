@@ -167,17 +167,39 @@ nav {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .card-container {
-      flex-direction: column;
-      align-items: center; /* Center cards on small screens */
+  header {
+    flex-direction: column;
+    align-items: center;
   }
 
-  nav ul {
-      flex-direction: column;
+  .header-right {
+    justify-content: center;
   }
 
-  nav ul li {
-      margin: 10px 0;
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-overlay {
+    bottom: 10%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-left h1 {
+    font-size: 1.5rem;
+  }
+
+  .search-input {
+    width: 100px;
+  }
+
+  .video-overlay h1, 
+  .video-overlay h2, 
+  .video-overlay b {
+    font-size: 1rem;
   }
 }
 
