@@ -1,0 +1,118 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d2d44;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('contact.jpeg');
+}
+
+/* Header and Navbar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Align links on the left and icons on the right */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+/* Nav links on the left */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+/* Social media icons on the right */
+.social-icons a {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+/* Hover effect on social icons */
+.social-icons a:hover {
+    color: #00acee; /* Twitter blue for hover effect */
+}
+
+/* Contact container styles */
+.contact-container {
+    padding: 20px 40px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #232F3E;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.contact-section {
+    margin-bottom: 30px;
+}
+
+.contact-section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.contact-section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.contact-section a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0073e6;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0353a4;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(35, 47, 62, 0.8);
+    text-align: center;
+    padding: 10px;
+}

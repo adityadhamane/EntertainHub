@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+    background-image: url('sign.jpeg'); /* Add your background image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+.signin-container {
+    background-color: rgba(35, 47, 62, 0.8); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    z-index: 1; /* Bring the container in front of the video */
+}
+
+.signin-container h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #0073e6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 10px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.back-link {
+    margin-top: 20px; /* Space above the link */
+    color: #0073e6; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.back-link a {
+    color: #0073e6; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.back-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
