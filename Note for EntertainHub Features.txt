@@ -1,0 +1,22 @@
+EntertainHub website [https://adityadhamane.github.io/EntertainHub/index.html]
+
+Features:-
+
+Home page(index.html)
+
+movies (movies.html)
+
+TV Shows (tvshows.html)
+
+Music (music.html)
+
+Contact (contact.html)
+
+SignIn page (signin.html)
+
+Create Account page (create_account.html)
+
+This all Files with their separate .CSS file with same Names.
+
+Also Added website images and background videos with short Names in my repository.
+Visited my website if any difficulty for images or videos - https://adityadhamane.github.io/EntertainHub/index.html
